@@ -1,0 +1,13 @@
+.container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 40px;
+}
+.container h1{
+   color: #0526ff;
+}
+
+@media (max-width: 480px) {
+    
+}

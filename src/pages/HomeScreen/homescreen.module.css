@@ -1,0 +1,72 @@
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #F8F9FA;
+}
+
+.homeContainer{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    width: 100%;
+    margin: 5px 0px;
+}
+
+.homeContainer h2{
+    color: gray;
+}
+
+.homeContainer img{
+    width: 50%;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputContainer > h1,h2{
+    padding: 10px 0px;
+}
+Button{
+    margin: 10px 0px;
+}
+
+.jobResultContainer{
+ display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 50px;
+
+}
+
+@media (max-width: 768px) {
+    .homeContainer{
+        flex-direction: column-reverse;
+    }
+    .homeContainer{
+        font-size: small;
+    }
+
+    .homeContainer img{
+        width: 100%;
+    }
+
+    .jobResultContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+}
